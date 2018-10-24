@@ -1,4 +1,4 @@
-## eats_and_does -- OOP in Python
+## eats_and_does
 
 ### Part 1
 
