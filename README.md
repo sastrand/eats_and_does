@@ -7,14 +7,14 @@
 * In a file named `eats.py`, define three classes: `Bear`, `Turtle`, and 
 `Sasquatch`. For each, define a method: `eats()`. This should return "berries" for the `Bear`, "insects and small fish" for the `Turtle`, and "hazelnuts" for the `Sasquatch`. Create one object from each and print what it eats.
 
-* In a file named `does.py`, define three classes: `HeadLight`, `DriveTrain`, and `SoundSystem`. For each, define a method: `does()`. This returns "illuminates" for the `HeadLight`, "propels" for the `DriveTrain`, and "rocks" (or another verb of your choice) for the `SoundSystem`. Then define the class `Car` that has one instance of each of these classes.
+* In a file named `does.py`, define three classes: `HeadLight`, `DriveTrain`, and `SoundSystem`. For each, define a method: `does()`. This returns something like "illuminates" for the `HeadLight`, "propels" for the `DriveTrain`, and "rocks" for the `SoundSystem`. Then define the class `Car` that has one instance of each of these classes.
 
   Define a `does()` method for the Car that prints what its component objects do.
 
 
 ### Part 2
 
-* Add data attributes to `Bear`, `Turtle`, and `Sasquatch` that can be used to order instances of each relative to one another: first names for Bears, K-12 reading level for turtles, area code for Sasquatch.
+* Add data attributes to `Bear`, `Turtle`, and `Sasquatch` that can be used to order instances of each class relative to other instances of their same class: like first names for Bears, K-12 reading level for turtles, area code for Sasquatch.
 
   Overload the <, <=, >, and >= operators for these three classes to reflect this ordering.
 
